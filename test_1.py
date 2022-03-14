@@ -24,7 +24,7 @@ with dataset:
     def itm_sel(cat, num):
         return random.choice(cat)
     # df_raw = pd.read_csv('D:/project_knap/Vendor_Data.csv')
-    df_raw = get_data('D:/project_knap/Vendor_Data.csv')
+    df_raw = get_data('Vendor_Data.csv')
     df = df_raw[['Products', 'Cost_per_unit', 'Average_Profit_per_unit']]
     # assigning product category randomly 
     cat = ['groc', 'cosmt', 'stanr', 'food', 'bvrg']
